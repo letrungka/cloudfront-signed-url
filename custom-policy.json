@@ -1,0 +1,15 @@
+{
+    "Statement": [
+        {
+            "Resource": "https://d3st2bcjk6heqe.cloudfront.net/upload/*",
+            "Condition": {
+                "DateLessThan": {
+                    "AWS:EpochTime": 1625874480
+                },
+                "DateGreaterThan": {
+                    "AWS:EpochTime": 1625817016
+                }
+            }
+        }
+    ]
+}
